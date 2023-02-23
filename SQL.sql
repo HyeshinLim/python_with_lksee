@@ -77,3 +77,40 @@ ALTER TABLE test_table
 CHANGE test_column0 test_column2 INT;
 
 DESC test_table;
+
+show databases;
+use test;
+show tables;
+use python;
+create table test (
+id int a
+uto_increment primary key
+);
+
+desc test;
+insert into test values ();
+select * from test;
+
+insert into test values ();
+select * from test;
+
+delete from test where id  = 101;
+select * from test;
+
+delete from test where id  = 10;
+select * from test;
+
+insert into test values ();
+select * from test;
+insert into test values ();
+select * from test;
+delete from test where id  = 7;
+select * from test;
+
+delete from test;
+
+show table status;
+SHOW TABLE STATUS WHERE name = 'test';
+alter table test auto_increment = 1;
+SHOW TABLE STATUS WHERE name = 'test';
+
